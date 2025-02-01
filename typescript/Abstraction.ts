@@ -1,4 +1,4 @@
-abstract class Shape{
+abstract class Shape{ // to provide common features for all shapes
     public shapeName:string;
 
     constructor(name: string){
@@ -10,7 +10,7 @@ abstract class Shape{
     public abstract calculatePerimeter(): number;
 }
 
-interface Volume{
+interface Volume{ //to provide additional functionality for some shapes
     calculateVolume(): number;
 }
 
