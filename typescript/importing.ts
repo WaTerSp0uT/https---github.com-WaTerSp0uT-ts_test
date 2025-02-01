@@ -9,3 +9,5 @@ greetings();
 emp1.work();
 
 Employee.payTax();
+
+console.log(Employee.isEmployed);
